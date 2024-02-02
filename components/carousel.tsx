@@ -44,7 +44,7 @@ export async function Carousel() {
             <Image
               src={product.featuredImage?.url}
               alt="Product image"
-              className="h-[300px] w-full rounded-md rounded-b-none object-cover object-center transition-all duration-300 hover:scale-95 lg:h-[300px] lg:w-full"
+              className="h-[300px] w-full rounded-2xl rounded-b-none object-cover object-center transition-all duration-300 hover:scale-95 lg:h-[300px] lg:w-full"
               width={300}
               height={300}
             />
